@@ -12,9 +12,9 @@ jobs:
           ls -la
       - name: Checkout
         uses: actions/checkout@v1
-      -name: List file After
+      - name: List file After
       Checkout
-        run: 
+        run: | 
           pwd
           ls -a
       - name: Simple JS Actions
