@@ -7,11 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: List Files
-         run: |
-           pwd
-           ls -la
+        run: |
+          pwd
+          ls -la
       - name: Checkout
         uses: actions/checkout@v1
+      -name: List file After
+      Checkout
+        run: 
+          pwd
+          ls -a
       - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
